@@ -97,4 +97,64 @@
 
 ## Switch Statement
 - statement percabangan yang hampir sama dengan if namun ini lebih sederhana
-- since 2014, statement switch lambda yang dimana lebh sederhana lagi untuk code nya 
+- since 2014, statement switch lambda yang dimana lebh sederhana lagi untuk code nya
+- since java 14, dalam switch lambda bisa menggunakan key yield untuk membuat variable yang akan digunakan untuk menampung result dari logika dari switch diatas
+
+## Ternary Operator
+- Bentuk sederhana dari if statement dari yang biasanya di gunakan 
+- Nilai yang dievaluasi biasanya menggunkan single line code
+
+## For Loop
+- Suato statement untuk melakukan perulangan di dalam code block
+- Init statement akan dijalan 1 kali diawal
+- key ini bisa digunakan tanpa harus menggunakan nilai init didalam ataupun post
+
+## While Loop
+- Perulangan yang sederhana jika dibandingkan dengan for loop
+- Terdapat kondisi perulangan saja tanpa ada init dan post
+
+##  Do While Loop
+- Hampir sama dengan perulangan while loop hanya berbeda pada kondisinya
+- Di while loop kondisi di cek diawal tapi do while loop di akhir
+- Jika kondisinya tidak valid ini akan tetap di eksekusi minimal 1 kali
+
+## Break dan Continue
+- Didalam perulangan bisa menggunakan kata kunci break dan continue
+- Break digunakan untuk menghentikan semua sebuah perulangan
+- Continue digunakan untuk menghentintik perulangan saat ini untuk melanjutkan perulangan selanjutnya
+
+
+## For Each
+- Perulangan ini tidak harus menyebutkan index dari sebuah array
+
+
+## Method
+- Sebuah kode program yang berjalan pada saat dipanggil
+- Kita bisa memanggil method menggunkan kurung buka dan kurung tutup
+- contohnya:
+```java
+System.out.println("Hello world 1"); //Statement
+``` 
+
+## Method Parameter
+- Setiap method bisa digunakan untuk memanggil sebuah parameter
+- contohnya :
+```java
+public class MethodParameter {
+
+    public static void main(String[] args) {
+        sayHelloWorld("Agus Firman");
+    }
+
+    static void sayHelloWorld(String firstname){
+        System.out.println("Hello "+ firstname);
+    }
+}
+```
+
+## Method Return Value
+- Secara default method tidak bisa mengembali value
+- Agar method bisa mengembalikan value maka key word static di ubah dengan tipe data yang ingin dihasilkan dan menggunakan key return
+- Dijava hanya bisa mengembalikan 1 data
+
+
